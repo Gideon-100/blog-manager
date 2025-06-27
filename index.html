@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Blog Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Simple Blog/Post Manager</h1>
+  <div id="app-container" style="display: flex; gap: 2rem;">
+    <div id="post-list" style="width: 30%; border-right: 1px solid #ccc;">
+      <h2>All Posts</h2>
+    </div>
+
+    <div id="post-detail" style="width: 70%;">
+      <h2>Post Details</h2>
+      <p>Select a post to view details.</p>
+    </div>
+  </div>
+
+  <h3>Add New Post</h3>
+  <form id="new-post-form">
+    <input type="text" name="title" placeholder="Post Title" required /><br />
+    <textarea name="content" placeholder="Post Content" required></textarea><br />
+    <input type="text" name="author" placeholder="Author Name" required /><br />
+    <button type="submit">Add Post</button>
+  </form>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

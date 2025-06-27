@@ -1,0 +1,17 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Welcome to My Blog",
+        "content": "This is my first post. I’m excited to start sharing content!",
+        "author": "Gideon"
+      },
+      {
+        "id": 2,
+        "title": "Coding with JavaScript",
+        "content": "JavaScript is versatile and fun to use for frontend and backend.",
+        "author": "Gideon"
+      }
+    ]
+  }
+  
